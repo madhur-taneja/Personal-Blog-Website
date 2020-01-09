@@ -1,0 +1,40 @@
+a {
+    cursor: pointer;
+}
+
+.blog-grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 1rem;
+    margin: 5vh 12vw;
+}
+
+.blog-post {
+    min-height: 50vh;
+    text-align: center;
+    background: white;
+}
+
+.blog-cover-img {
+    width: 100%;
+}
+
+.blog-content {
+    padding: 1rem;
+    text-align: justify;
+}
+
+.blog-content-description {
+    margin: 2vh 0 0 0;
+}
+
+@media screen and (max-width: 668px) {
+    .blog-grid-container {
+        grid-template-columns: auto auto;
+        margin: 5vh 15vw;
+    }
+
+    .blog-post {
+            grid-column: 1 / span 2;
+    }
+}

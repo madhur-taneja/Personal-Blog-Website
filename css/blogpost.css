@@ -1,0 +1,29 @@
+.custom-container {
+    margin: 5vh 15vw !important;
+    text-align: center;
+}
+
+.blog-page-cover {
+    max-width: 70vw;
+}
+
+.blog-content {
+    text-align: justify;
+}
+
+/*Button*/
+.custom-button {
+  background: grey;
+  border-color: yellow;
+  color: #fff;
+  background: {
+    image: linear-gradient(45deg,$yellow 50%, transparent 50%);
+    position: 100%;
+    size: 400%;
+  }
+  transition: background 300ms ease-in-out;
+
+  &:hover {
+    background-position: 0;
+  }
+}
