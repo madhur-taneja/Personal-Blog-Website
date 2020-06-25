@@ -19,7 +19,7 @@ The project is also hosted on [Github](https://madhur-taneja.github.io/Personal-
 
 This project was built from scratch and is a part of Udacity's Refreshed Front-End Nanodegree program. 
 
-The project will be evaluated by a Udacity code reviewer according to the Landing Page project [rubric](https://review.udacity.com/#!/rubrics/2667/view)
+The project will be evaluated by a Udacity code reviewer according to the Personal Blog Website project [rubric](https://review.udacity.com/#!/rubrics/2667/view)
 
 ### Tools Required
 
